@@ -9,11 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
     
-        
+    @IBOutlet weak var buttonWidthConstant: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
+    
+    override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.willTransition(to: newCollection, with: coordinator)
+        
+        switch newCollection.verticalSizeClass {
+        case .compact:
+            buttonWidthConstant.priority = .required
+        case .regular, .unspecified:
+            buttonWidthConstant.priority = .defaultLow
+        @unknown default:
+            fatalError()
+        }
+    }
+    
 }
 

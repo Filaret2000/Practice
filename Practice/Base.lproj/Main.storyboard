@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Iof-jZ-1WI">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -19,29 +19,29 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Practice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHC-rl-ngu">
-                                <rect key="frame" x="16" y="118" width="382" height="31.5"/>
+                                <rect key="frame" x="16" y="118.00000000000001" width="358" height="30.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Wotfard-Medium" family="Wotfard" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selfie-bust" translatesAutoresizingMaskIntoConstraints="NO" id="1QD-hw-wvW">
-                                <rect key="frame" x="143" y="165.5" width="128" height="128"/>
+                                <rect key="frame" x="131" y="164.66666666666666" width="128" height="127.99999999999997"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-fB-wGZ">
-                                <rect key="frame" x="16" y="317.5" width="382" height="108"/>
+                                <rect key="frame" x="16" y="316.66666666666669" width="358" height="105"/>
                                 <string key="text">Your device does not meet minimum requirements for camera resolution to comply with local regulations for remote identification. Please try again with a different device.</string>
                                 <fontDescription key="fontDescription" name="Wotfard-Regular" family="Wotfard" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcA-M5-yed">
-                                <rect key="frame" x="24" y="736" width="366" height="48"/>
+                                <rect key="frame" x="24" y="684" width="342" height="48"/>
                                 <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="4Hf-fX-22A"/>
@@ -79,6 +79,78 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-568.1159420289855" y="-316.07142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8jv-wn-wcA">
+            <objects>
+                <viewController id="Iof-jZ-1WI" customClass="ViewController" customModule="Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C20-iq-ps1">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="1000" text="Terms &amp; Conditions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="su4-Sl-km4">
+                                <rect key="frame" x="16" y="70" width="358" height="39.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Wotfard-Medium" family="Wotfard" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ihh-cA-0eR">
+                                <rect key="frame" x="16" y="135.66666666666669" width="358" height="531.33333333333326"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="700" constant="800" id="MEB-qm-5v8"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nbN-CA-ABI">
+                                <rect key="frame" x="16" y="693" width="358" height="101"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zv3-Ad-cOd">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="AQD-qF-H0C"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Start identifiction">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                            </backgroundConfiguration>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dO6-e0-Pek">
+                                        <rect key="frame" x="0.0" y="53" width="358" height="48"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="I do not agree">
+                                            <color key="baseForegroundColor" red="1" green="0.41960784309999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SbS-6d-Kk7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nbN-CA-ABI" firstAttribute="width" secondItem="C20-iq-ps1" secondAttribute="width" multiplier="1:5" priority="250" id="2Or-p2-HDS"/>
+                            <constraint firstItem="SbS-6d-Kk7" firstAttribute="trailing" secondItem="Ihh-cA-0eR" secondAttribute="trailing" constant="16" id="2dJ-Mm-Tuh"/>
+                            <constraint firstItem="SbS-6d-Kk7" firstAttribute="bottom" secondItem="nbN-CA-ABI" secondAttribute="bottom" constant="16" id="GrX-PT-pNE"/>
+                            <constraint firstItem="nbN-CA-ABI" firstAttribute="top" secondItem="Ihh-cA-0eR" secondAttribute="bottom" constant="26" id="IZ2-Uc-grk"/>
+                            <constraint firstItem="nbN-CA-ABI" firstAttribute="centerX" secondItem="C20-iq-ps1" secondAttribute="centerX" id="IzD-of-c2a"/>
+                            <constraint firstItem="su4-Sl-km4" firstAttribute="top" secondItem="SbS-6d-Kk7" secondAttribute="top" constant="26" id="K7L-Gj-FFj"/>
+                            <constraint firstItem="Ihh-cA-0eR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="su4-Sl-km4" secondAttribute="bottom" constant="26" id="dIl-GN-mzb"/>
+                            <constraint firstItem="nbN-CA-ABI" firstAttribute="leading" secondItem="SbS-6d-Kk7" secondAttribute="leading" priority="760" constant="16" id="qA2-R4-7WP"/>
+                            <constraint firstItem="su4-Sl-km4" firstAttribute="top" secondItem="SbS-6d-Kk7" secondAttribute="top" priority="740" constant="100" id="qDT-4Y-Wo9"/>
+                            <constraint firstItem="SbS-6d-Kk7" firstAttribute="trailing" secondItem="nbN-CA-ABI" secondAttribute="trailing" priority="760" constant="16" id="rIt-zP-BDV"/>
+                            <constraint firstItem="Ihh-cA-0eR" firstAttribute="leading" secondItem="SbS-6d-Kk7" secondAttribute="leading" constant="16" id="wVz-BR-RbD"/>
+                            <constraint firstItem="SbS-6d-Kk7" firstAttribute="trailing" secondItem="su4-Sl-km4" secondAttribute="trailing" constant="16" id="xmt-js-J9l"/>
+                            <constraint firstItem="su4-Sl-km4" firstAttribute="leading" secondItem="SbS-6d-Kk7" secondAttribute="leading" constant="16" id="xzb-ct-P6d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonWidthConstant" destination="2Or-p2-HDS" id="GNk-9x-iV0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1e-Ec-Azv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215.94202898550725" y="-316.07142857142856"/>
         </scene>
     </scenes>
     <resources>

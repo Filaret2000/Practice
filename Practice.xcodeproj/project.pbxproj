@@ -27,6 +27,8 @@
 		8D52522C2893E1CD00946C7E /* Wotfard-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521E2893E1CD00946C7E /* Wotfard-BoldItalic.otf */; };
 		8D52522D2893E1CD00946C7E /* Wotfard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521F2893E1CD00946C7E /* Wotfard-SemiBold.otf */; };
 		8D52522E2893E1CD00946C7E /* Wotfard-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252202893E1CD00946C7E /* Wotfard-ThinItalic.otf */; };
+		8D525230289405B100946C7E /* CheckboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D52522F289405B100946C7E /* CheckboxView.xib */; };
+		8D5252342894101400946C7E /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5252332894101400946C7E /* CheckboxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		8D52521E2893E1CD00946C7E /* Wotfard-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-BoldItalic.otf"; sourceTree = "<group>"; };
 		8D52521F2893E1CD00946C7E /* Wotfard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-SemiBold.otf"; sourceTree = "<group>"; };
 		8D5252202893E1CD00946C7E /* Wotfard-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-ThinItalic.otf"; sourceTree = "<group>"; };
+		8D52522F289405B100946C7E /* CheckboxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckboxView.xib; sourceTree = "<group>"; };
+		8D5252332894101400946C7E /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		8D5251FC2893C55200946C7E /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8D52523128940FD200946C7E /* Views */,
 				8D5252112893E0B200946C7E /* Resources */,
 				8D5251FD2893C55200946C7E /* AppDelegate.swift */,
 				8D5251FF2893C55200946C7E /* SceneDelegate.swift */,
@@ -123,6 +128,23 @@
 				8D5252202893E1CD00946C7E /* Wotfard-ThinItalic.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8D52523128940FD200946C7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D52523228940FD700946C7E /* CheckboxView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D52523228940FD700946C7E /* CheckboxView */ = {
+			isa = PBXGroup;
+			children = (
+				8D5252332894101400946C7E /* CheckboxView.swift */,
+				8D52522F289405B100946C7E /* CheckboxView.xib */,
+			);
+			path = CheckboxView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +209,7 @@
 				8D5252272893E1CD00946C7E /* Wotfard-Light.otf in Resources */,
 				8D5252282893E1CD00946C7E /* Wotfard-ExtraLightItalic.otf in Resources */,
 				8D5252292893E1CD00946C7E /* Wotfard-Thin.otf in Resources */,
+				8D525230289405B100946C7E /* CheckboxView.xib in Resources */,
 				8D52520A2893C55400946C7E /* LaunchScreen.storyboard in Resources */,
 				8D5252072893C55400946C7E /* Assets.xcassets in Resources */,
 				8D5252252893E1CD00946C7E /* Wotfard-MediumItalic.otf in Resources */,
@@ -213,6 +236,7 @@
 				8D5252022893C55200946C7E /* ViewController.swift in Sources */,
 				8D5251FE2893C55200946C7E /* AppDelegate.swift in Sources */,
 				8D5252002893C55200946C7E /* SceneDelegate.swift in Sources */,
+				8D5252342894101400946C7E /* CheckboxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
