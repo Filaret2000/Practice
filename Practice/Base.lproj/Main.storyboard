@@ -7,6 +7,14 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Wotfard-Medium.otf">
+            <string>Wotfard-Medium</string>
+        </array>
+        <array key="Wotfard-Regular.otf">
+            <string>Wotfard-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -15,16 +23,66 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHC-rl-ngu">
+                                <rect key="frame" x="16" y="118" width="382" height="31.5"/>
+                                <fontDescription key="fontDescription" name="Wotfard-Medium" family="Wotfard" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selfie-bust" translatesAutoresizingMaskIntoConstraints="NO" id="1QD-hw-wvW">
+                                <rect key="frame" x="143" y="165.5" width="128" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-fB-wGZ">
+                                <rect key="frame" x="16" y="317.5" width="382" height="108"/>
+                                <string key="text">Your device does not meet minimum requirements for camera resolution to comply with local regulations for remote identification. Please try again with a different device.</string>
+                                <fontDescription key="fontDescription" name="Wotfard-Regular" family="Wotfard" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcA-M5-yed">
+                                <rect key="frame" x="24" y="736" width="366" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="4Hf-fX-22A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Wotfard-Medium" family="Wotfard" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NcA-M5-yed" secondAttribute="bottom" constant="78" id="2TR-xp-aV3"/>
+                            <constraint firstItem="1QD-hw-wvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8hj-XG-5s1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NcA-M5-yed" secondAttribute="trailing" constant="24" id="EBK-hk-nCc"/>
+                            <constraint firstItem="1QD-hw-wvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GgO-t7-QN1"/>
+                            <constraint firstItem="1TA-fB-wGZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="JDC-xL-hXj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aHC-rl-ngu" secondAttribute="trailing" constant="16" id="Tgn-dI-hQJ"/>
+                            <constraint firstAttribute="trailing" secondItem="1TA-fB-wGZ" secondAttribute="trailing" constant="16" id="Ygy-sK-oc1"/>
+                            <constraint firstItem="NcA-M5-yed" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="avb-e9-EEV"/>
+                            <constraint firstItem="aHC-rl-ngu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gA9-nC-4uQ"/>
+                            <constraint firstItem="1TA-fB-wGZ" firstAttribute="top" secondItem="1QD-hw-wvW" secondAttribute="bottom" constant="24" id="oMf-W2-gTm"/>
+                            <constraint firstItem="1QD-hw-wvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p0k-Ct-o8R"/>
+                            <constraint firstItem="1QD-hw-wvW" firstAttribute="top" secondItem="aHC-rl-ngu" secondAttribute="bottom" constant="16" id="sm4-qS-OoY"/>
+                            <constraint firstItem="aHC-rl-ngu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="wDL-a3-MhH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-567" y="-316"/>
+            <point key="canvasLocation" x="-568.1159420289855" y="-316.07142857142856"/>
         </scene>
     </scenes>
     <resources>
+        <image name="selfie-bust" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

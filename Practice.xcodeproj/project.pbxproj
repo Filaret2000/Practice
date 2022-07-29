@@ -13,6 +13,20 @@
 		8D5252052893C55200946C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252032893C55200946C7E /* Main.storyboard */; };
 		8D5252072893C55400946C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252062893C55400946C7E /* Assets.xcassets */; };
 		8D52520A2893C55400946C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252082893C55400946C7E /* LaunchScreen.storyboard */; };
+		8D5252212893E1CD00946C7E /* Wotfard-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252132893E1CD00946C7E /* Wotfard-SemiBoldItalic.otf */; };
+		8D5252222893E1CD00946C7E /* Wotfard-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252142893E1CD00946C7E /* Wotfard-LightItalic.otf */; };
+		8D5252232893E1CD00946C7E /* Wotfard-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252152893E1CD00946C7E /* Wotfard-RegularItalic.otf */; };
+		8D5252242893E1CD00946C7E /* Wotfard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252162893E1CD00946C7E /* Wotfard-Medium.otf */; };
+		8D5252252893E1CD00946C7E /* Wotfard-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252172893E1CD00946C7E /* Wotfard-MediumItalic.otf */; };
+		8D5252262893E1CD00946C7E /* Wotfard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252182893E1CD00946C7E /* Wotfard-ExtraLight.otf */; };
+		8D5252272893E1CD00946C7E /* Wotfard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252192893E1CD00946C7E /* Wotfard-Light.otf */; };
+		8D5252282893E1CD00946C7E /* Wotfard-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521A2893E1CD00946C7E /* Wotfard-ExtraLightItalic.otf */; };
+		8D5252292893E1CD00946C7E /* Wotfard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521B2893E1CD00946C7E /* Wotfard-Thin.otf */; };
+		8D52522A2893E1CD00946C7E /* Wotfard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521C2893E1CD00946C7E /* Wotfard-Bold.otf */; };
+		8D52522B2893E1CD00946C7E /* Wotfard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521D2893E1CD00946C7E /* Wotfard-Regular.otf */; };
+		8D52522C2893E1CD00946C7E /* Wotfard-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521E2893E1CD00946C7E /* Wotfard-BoldItalic.otf */; };
+		8D52522D2893E1CD00946C7E /* Wotfard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D52521F2893E1CD00946C7E /* Wotfard-SemiBold.otf */; };
+		8D52522E2893E1CD00946C7E /* Wotfard-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5252202893E1CD00946C7E /* Wotfard-ThinItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		8D5252062893C55400946C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5252092893C55400946C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D52520B2893C55400946C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5252132893E1CD00946C7E /* Wotfard-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		8D5252142893E1CD00946C7E /* Wotfard-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-LightItalic.otf"; sourceTree = "<group>"; };
+		8D5252152893E1CD00946C7E /* Wotfard-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-RegularItalic.otf"; sourceTree = "<group>"; };
+		8D5252162893E1CD00946C7E /* Wotfard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-Medium.otf"; sourceTree = "<group>"; };
+		8D5252172893E1CD00946C7E /* Wotfard-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-MediumItalic.otf"; sourceTree = "<group>"; };
+		8D5252182893E1CD00946C7E /* Wotfard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-ExtraLight.otf"; sourceTree = "<group>"; };
+		8D5252192893E1CD00946C7E /* Wotfard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-Light.otf"; sourceTree = "<group>"; };
+		8D52521A2893E1CD00946C7E /* Wotfard-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		8D52521B2893E1CD00946C7E /* Wotfard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-Thin.otf"; sourceTree = "<group>"; };
+		8D52521C2893E1CD00946C7E /* Wotfard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-Bold.otf"; sourceTree = "<group>"; };
+		8D52521D2893E1CD00946C7E /* Wotfard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-Regular.otf"; sourceTree = "<group>"; };
+		8D52521E2893E1CD00946C7E /* Wotfard-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-BoldItalic.otf"; sourceTree = "<group>"; };
+		8D52521F2893E1CD00946C7E /* Wotfard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-SemiBold.otf"; sourceTree = "<group>"; };
+		8D5252202893E1CD00946C7E /* Wotfard-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wotfard-ThinItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 		8D5251FC2893C55200946C7E /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8D5252112893E0B200946C7E /* Resources */,
 				8D5251FD2893C55200946C7E /* AppDelegate.swift */,
 				8D5251FF2893C55200946C7E /* SceneDelegate.swift */,
 				8D5252012893C55200946C7E /* ViewController.swift */,
@@ -65,6 +94,35 @@
 				8D52520B2893C55400946C7E /* Info.plist */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		8D5252112893E0B200946C7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5252122893E13B00946C7E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D5252122893E13B00946C7E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D52521C2893E1CD00946C7E /* Wotfard-Bold.otf */,
+				8D52521E2893E1CD00946C7E /* Wotfard-BoldItalic.otf */,
+				8D5252182893E1CD00946C7E /* Wotfard-ExtraLight.otf */,
+				8D52521A2893E1CD00946C7E /* Wotfard-ExtraLightItalic.otf */,
+				8D5252192893E1CD00946C7E /* Wotfard-Light.otf */,
+				8D5252142893E1CD00946C7E /* Wotfard-LightItalic.otf */,
+				8D5252162893E1CD00946C7E /* Wotfard-Medium.otf */,
+				8D5252172893E1CD00946C7E /* Wotfard-MediumItalic.otf */,
+				8D52521D2893E1CD00946C7E /* Wotfard-Regular.otf */,
+				8D5252152893E1CD00946C7E /* Wotfard-RegularItalic.otf */,
+				8D52521F2893E1CD00946C7E /* Wotfard-SemiBold.otf */,
+				8D5252132893E1CD00946C7E /* Wotfard-SemiBoldItalic.otf */,
+				8D52521B2893E1CD00946C7E /* Wotfard-Thin.otf */,
+				8D5252202893E1CD00946C7E /* Wotfard-ThinItalic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +183,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D52522B2893E1CD00946C7E /* Wotfard-Regular.otf in Resources */,
+				8D5252272893E1CD00946C7E /* Wotfard-Light.otf in Resources */,
+				8D5252282893E1CD00946C7E /* Wotfard-ExtraLightItalic.otf in Resources */,
+				8D5252292893E1CD00946C7E /* Wotfard-Thin.otf in Resources */,
 				8D52520A2893C55400946C7E /* LaunchScreen.storyboard in Resources */,
 				8D5252072893C55400946C7E /* Assets.xcassets in Resources */,
+				8D5252252893E1CD00946C7E /* Wotfard-MediumItalic.otf in Resources */,
+				8D5252262893E1CD00946C7E /* Wotfard-ExtraLight.otf in Resources */,
+				8D5252242893E1CD00946C7E /* Wotfard-Medium.otf in Resources */,
+				8D5252212893E1CD00946C7E /* Wotfard-SemiBoldItalic.otf in Resources */,
+				8D52522A2893E1CD00946C7E /* Wotfard-Bold.otf in Resources */,
+				8D5252222893E1CD00946C7E /* Wotfard-LightItalic.otf in Resources */,
+				8D52522C2893E1CD00946C7E /* Wotfard-BoldItalic.otf in Resources */,
+				8D5252232893E1CD00946C7E /* Wotfard-RegularItalic.otf in Resources */,
+				8D52522E2893E1CD00946C7E /* Wotfard-ThinItalic.otf in Resources */,
+				8D52522D2893E1CD00946C7E /* Wotfard-SemiBold.otf in Resources */,
 				8D5252052893C55200946C7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
