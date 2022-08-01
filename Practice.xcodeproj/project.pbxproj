@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D2640372897D36600C38BEA /* CountrySelectionViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2640362897D36600C38BEA /* CountrySelectionViewControler.swift */; };
 		8D5251FE2893C55200946C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5251FD2893C55200946C7E /* AppDelegate.swift */; };
 		8D5252002893C55200946C7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5251FF2893C55200946C7E /* SceneDelegate.swift */; };
 		8D5252022893C55200946C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5252012893C55200946C7E /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D2640362897D36600C38BEA /* CountrySelectionViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewControler.swift; sourceTree = "<group>"; };
 		8D5251FA2893C55200946C7E /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5251FD2893C55200946C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D5251FF2893C55200946C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D2640352897D2A400C38BEA /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				8D2640362897D36600C38BEA /* CountrySelectionViewControler.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		8D5251F12893C55200946C7E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 		8D5251FC2893C55200946C7E /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8D2640352897D2A400C38BEA /* Pages */,
 				8D52523128940FD200946C7E /* Views */,
 				8D5252112893E0B200946C7E /* Resources */,
 				8D5251FD2893C55200946C7E /* AppDelegate.swift */,
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5252022893C55200946C7E /* ViewController.swift in Sources */,
+				8D2640372897D36600C38BEA /* CountrySelectionViewControler.swift in Sources */,
 				8D5251FE2893C55200946C7E /* AppDelegate.swift in Sources */,
 				8D5252002893C55200946C7E /* SceneDelegate.swift in Sources */,
 				8D5252342894101400946C7E /* CheckboxView.swift in Sources */,
@@ -313,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -368,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -385,6 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44V75S9NJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -412,6 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44V75S9NJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
